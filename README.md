@@ -1,59 +1,43 @@
-# ProjetoAngular
+Sistema para Concessionária
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+Projeto desenvolvido como atividade acadêmica para a disciplina de Design de Interfaces Humano/Computador, utilizando Angular.
 
-## Development server
+A aplicação tem como objetivo desenvolver um sistema de gerenciamento para uma concessionária, aplicando conceitos de desenvolvimento de interfaces, organização de componentes e arquitetura Angular.
 
-To start a local development server, run:
+🎯 Objetivos
+Desenvolver uma aplicação utilizando Angular;
+Aplicar a arquitetura e organização recomendadas pelo Angular;
+Desenvolver interfaces utilizando PrimeNG;
+Aplicar conceitos de Design de Interfaces Humano/Computador;
+Evoluir o projeto para um sistema completo de gerenciamento de uma concessionária.
 
-```bash
-ng serve
-```
+🛠️ Tecnologias e Requisitos
+Node.js (LTS)
+Angular
+Angular CLI
+PrimeNG
+TypeScript
+HTML
+CSS
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🏗️ Arquitetura
 
-## Code scaffolding
+O projeto segue a arquitetura do Angular, buscando manter uma organização adequada dos componentes e demais estruturas da aplicação.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🎨 Interface
 
-```bash
-ng generate component component-name
-```
+A interface da aplicação será desenvolvida utilizando PrimeNG, buscando proporcionar uma experiência de uso organizada, intuitiva e adequada aos princípios de Design de Interfaces Humano/Computador.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+📚 Informações Acadêmicas
+Disciplina: Design de Interfaces Humano/Computador
+Aluno: Luiz Gustavo Costa Hamamura
+Professor: JOSÉ WILSON DA SILVA JUNIOR
 
-```bash
-ng generate --help
-```
+📌 Status do Projeto
 
-## Building
+🚧 Em desenvolvimento
 
-To build the project run:
 
-```bash
-ng build
-```
+Finalização do sistema da concessionária
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Projeto acadêmico desenvolvido para a disciplina de Design de Interfaces Humano/Computador.
