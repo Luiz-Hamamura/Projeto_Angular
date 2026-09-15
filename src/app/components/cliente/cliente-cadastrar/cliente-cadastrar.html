@@ -1,0 +1,91 @@
+<div class="pagina">
+
+  <p-card header="Cadastro de Cliente">
+
+    <form (ngSubmit)="salvar()">
+
+      <div class="campo">
+        <label for="nome">Nome</label>
+
+        <input
+          pInputText
+          id="nome"
+          type="text"
+          name="nome"
+          [(ngModel)]="cliente.nome"
+          required
+          placeholder="Digite o nome">
+      </div>
+
+
+      <div class="campo">
+        <label for="cpf">CPF</label>
+
+        <input
+          pInputText
+          id="cpf"
+          type="text"
+          name="cpf"
+          [(ngModel)]="cliente.cpf"
+          required
+          placeholder="Digite o CPF">
+      </div>
+
+
+      <div class="campo">
+        <label for="telefone">Telefone</label>
+
+        <input
+          pInputText
+          id="telefone"
+          type="text"
+          name="telefone"
+          [(ngModel)]="cliente.telefone"
+          required
+          placeholder="Digite o telefone">
+      </div>
+
+
+      <div class="campo">
+        <label for="email">E-mail</label>
+
+        <input
+          pInputText
+          id="email"
+          type="email"
+          name="email"
+          [(ngModel)]="cliente.email"
+          required
+          placeholder="Digite o e-mail">
+      </div>
+
+
+      <div class="campo">
+        <label for="endereco">Endereço</label>
+
+        <input
+          pInputText
+          id="endereco"
+          type="text"
+          name="endereco"
+          [(ngModel)]="cliente.endereco"
+          required
+          placeholder="Digite o endereço">
+      </div>
+
+
+      <div class="botoes">
+
+        <p-button
+          type="submit"
+          label="Cadastrar Cliente"
+          icon="pi pi-check">
+        </p-button>
+
+      </div>
+
+    </form>
+
+  </p-card>
+
+</div>

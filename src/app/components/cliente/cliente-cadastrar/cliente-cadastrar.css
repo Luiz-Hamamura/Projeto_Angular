@@ -1,0 +1,42 @@
+.pagina {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 50px;
+
+  background-color: #f5f5f5;
+}
+
+p-card {
+  width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  font-weight: 600;
+}
+
+.campo input {
+  width: 100%;
+}
+
+.botoes {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

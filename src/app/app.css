@@ -1,0 +1,19 @@
+
+header {
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
+header h1 {
+  margin: 0 0 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
